@@ -9,7 +9,8 @@ CREATE TABLE CrimeInvestigations.police_station
     -- specify more columns here
 );
 
-INSERT INTO CrimeInvestigations.police_station VALUES('1','SYSTEM','RQ12T3');
+INSERT INTO CrimeInvestigations.police_station VALUES('1','SYSTEM','SYSTEM');
+INSERT INTO CrimeInvestigations.police_station VALUES('2','DIG','head');
 
 CREATE TABLE CrimeInvestigations.police_officer
 (
