@@ -117,6 +117,7 @@ public class AdminContact {
 				frmAdminContact.setVisible(false);
 			}
 		});
+		lblNewOfficer.setToolTipText("Click here to register");
 		lblNewOfficer.setForeground(Color.WHITE);
 		lblNewOfficer.setFont(new Font("Chilanka", Font.BOLD, 13));
 		lblNewOfficer.setBounds(36, 276, 209, 28);
@@ -133,7 +134,7 @@ public class AdminContact {
 		});
 		lblLogOut.setToolTipText("Bck to Police login?");
 		lblLogOut.setFont(new Font("Chilanka", Font.BOLD, 13));
-		lblLogOut.setBounds(1266, 12, 70, 15);
+		lblLogOut.setBounds(1200, 12, 70, 15);
 		frmAdminContact.getContentPane().add(lblLogOut);
 		
 		JLabel lblNewLabel = new JLabel("contact image");

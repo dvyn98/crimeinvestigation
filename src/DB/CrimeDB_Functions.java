@@ -32,8 +32,7 @@ public class CrimeDB_Functions {
 	
 	
 	//police station login
-	public boolean police_station_login(String username,
-										String password) throws SQLException {
+	public boolean police_station_login(String username,String password) throws SQLException {
 		boolean valid = false; //always to be false
 		
 		PreparedStatement login = con.prepareStatement("Select password from police_station where username = ?");

@@ -140,7 +140,7 @@ public class Home {
 		});
 		lblLogOut.setToolTipText("Bck to Police login?");
 		lblLogOut.setFont(new Font("Chilanka", Font.BOLD, 13));
-		lblLogOut.setBounds(1266, 12, 70, 15);
+		lblLogOut.setBounds(1200, 12, 70, 15);
 		frmCrimeInvestigationhome.getContentPane().add(lblLogOut);
 		
 	   

@@ -148,7 +148,7 @@ public class Officerlogin {
 		});
 		lblLogOut.setToolTipText("Bck to Police login?");
 		lblLogOut.setFont(new Font("Chilanka", Font.BOLD, 13));
-		lblLogOut.setBounds(1266, 12, 70, 15);
+		lblLogOut.setBounds(1200, 12, 70, 15);
 		frmOfficerLogin.getContentPane().add(lblLogOut);
 		
 		JLabel lblOfficerLogin_1 = new JLabel("Officer login");
@@ -156,11 +156,7 @@ public class Officerlogin {
 		lblOfficerLogin_1.setBounds(678, 76, 120, 27);
 		frmOfficerLogin.getContentPane().add(lblOfficerLogin_1);
 		
-		JLabel lblNewLabel = new JLabel("officer logo");
-		//Image im = new ImageIcon(this.getClass().getResource("/officer-logo.jpg")).getImage();
-		//lblNewLabel.setIcon(new ImageIcon(im));
-		lblNewLabel.setBounds(439, 133, 129, 202);
-		frmOfficerLogin.getContentPane().add(lblNewLabel);
+		
 		
 		JLabel lblUsername = new JLabel("Username :");
 		lblUsername.setFont(new Font("Chilanka", Font.BOLD, 14));
@@ -204,6 +200,7 @@ public class Officerlogin {
 				}
 			}
 		});
+		btnLogin.setToolTipText("Click to LOGIN");
 		btnLogin.setForeground(new Color(255, 255, 255));
 		btnLogin.setBackground(new Color(0, 0, 128));
 		btnLogin.setBounds(678, 282, 117, 25);

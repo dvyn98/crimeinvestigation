@@ -151,9 +151,9 @@ public class NewOfficerRegistration {
 				
 			}
 		});
-		lblLogOut.setToolTipText("Bck to Police login?");
+		lblLogOut.setToolTipText("Back to Police login?");
 		lblLogOut.setFont(new Font("Chilanka", Font.BOLD, 13));
-		lblLogOut.setBounds(1266, 12, 70, 15);
+		lblLogOut.setBounds(1200, 12, 70, 15);
 		frmNewOfficerRegistrstion.getContentPane().add(lblLogOut);
 		
 		JLabel lblNewLabel = new JLabel("welcomelable");

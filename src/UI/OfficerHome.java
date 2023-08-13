@@ -112,6 +112,7 @@ public class OfficerHome {
 		panel.add(label);
 		
 		JLabel lblFir = new JLabel("* FIR");
+		lblFir.setToolTipText("Click here to create and find FIR");
 		lblFir.setFont(new Font("Chilanka", Font.BOLD, 14));
 		lblFir.setForeground(new Color(255, 255, 255));
 		lblFir.setBackground(new Color(255, 255, 255));
@@ -128,6 +129,7 @@ public class OfficerHome {
 				
 			}
 		});
+		lblCriminals.setToolTipText("Click here to search criminal record");
 		lblCriminals.setFont(new Font("Chilanka", Font.BOLD, 14));
 		lblCriminals.setForeground(new Color(255, 255, 255));
 		lblCriminals.setBounds(36, 266, 139, 15);
@@ -169,9 +171,9 @@ public class OfficerHome {
 				
 			}
 		});
-		lblLogOut.setToolTipText("Bck to Officer login login?");
+		lblLogOut.setToolTipText("Back to Officer login login?");
 		lblLogOut.setFont(new Font("Chilanka", Font.BOLD, 13));
-		lblLogOut.setBounds(1266, 12, 70, 15);
+		lblLogOut.setBounds(1200, 12, 70, 15);
 		frmOfficerHome.getContentPane().add(lblLogOut);
 		
 		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
@@ -259,10 +261,7 @@ public class OfficerHome {
 		act.addItem(302);
 		act.addItem(303);
 				
-				JLabel lblNewLabel = new JLabel("FIR label");
-				lblNewLabel.setBounds(675, 35, 203, 169);
-				desktopPane.add(lblNewLabel);
-				//lblNewLabel.setIcon(new ImageIcon(im));
+				
 				
 				JLabel lblDetails = new JLabel("* Details");
 				lblDetails.setFont(new Font("Chilanka", Font.BOLD, 13));
@@ -404,6 +403,13 @@ public class OfficerHome {
 						JComboBox comboBox_2 = new JComboBox();
 						comboBox_2.setBounds(172, 299, 205, 24);
 						desktopPane_1.add(comboBox_2);
+						
+						// desktopPane_1.add(comboBox_2);
+						// comboBox_2.addItem("None");
+						// comboBox_2.addItem(301);
+						// comboBox_2.addItem(302);
+						// comboBox_2.addItem(303);
+				
 						
 						JButton btnSearch = new JButton("Search");
 						btnSearch.setForeground(Color.WHITE);

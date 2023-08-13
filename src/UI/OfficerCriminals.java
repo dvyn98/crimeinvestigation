@@ -154,7 +154,7 @@ public class OfficerCriminals {
 		});
 		lblLogOut.setToolTipText("Bck to Police login?");
 		lblLogOut.setFont(new Font("Chilanka", Font.BOLD, 13));
-		lblLogOut.setBounds(1266, 12, 70, 15);
+		lblLogOut.setBounds(1200, 12, 70, 15);
 		frmCriminals.getContentPane().add(lblLogOut);
 		
 		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
